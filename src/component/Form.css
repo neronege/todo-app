@@ -1,0 +1,35 @@
+.todo{
+    display: flex;
+   flex-direction:row;
+   height: 24px;
+   margin-bottom: 5px;
+   width: 350px;
+   }
+   input{
+     width: 330px;
+   }
+   .todo-1{
+     display: flex;
+    flex-direction:row;
+    height: 24px;
+   justify-content: space-between;
+    margin: 0;
+    width: 350px;
+    }
+   p{
+     margin-block-start: 0px;
+     margin-block-end: 0px;
+   
+   }
+   .list{
+    list-style-type:none;
+    background-color: antiquewhite;
+    color: #000;
+    width: 350px;
+    padding-inline-start: 0;
+    box-sizing: border-box;
+  }
+  .list-item{
+    border: solid;
+    text-align: -webkit-right;
+  }
